@@ -1,0 +1,284 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA#0_SIGNAL
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  (padstack $VIA#0_POWER
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
+  )
+  (network_out
+   (Net #00004 
+   (rule
+   )
+   (wire (path BOT 76200  2647000 384620 2159000 384620 2159000 127000
+     1143000 127000 1143000 -381000)
+    (connect (terminal pin HC12-1) (terminal pin U1-11))
+   )
+   )
+   (Net #00007 
+   (rule
+   )
+   (wire (path BOT 76200  -635000 -381000 -635000 -698500 0 -698500
+     0 -1270000)
+    (connect (terminal pin U1-4) (terminal pin R4-0))
+   )
+   (wire (path BOT 76200  1016000 -1397000 1016000 -1270000 0 -1270000)
+    (connect (terminal pin "OPTO RPM"-3) (terminal pin R4-0))
+   )
+   )
+   (Net #00008 
+   (rule
+   )
+   (wire (path BOT 76200  -2159000 -1266000 -2159000 -952500 -889000 -952500)
+    (connect (terminal pin R3-1) (terminal wire))
+   )
+   (wire (path BOT 76200  -889000 -952500 -762000 -952500 -762000 -1393000)
+    (connect (terminal wire) (terminal pin "OPTO VEL"-3))
+   )
+   (wire (path BOT 76200  -889000 -952500 -889000 -381000)
+    (connect (terminal wire) (terminal pin U1-3))
+   )
+   )
+   (Net #00015 
+   (rule
+   )
+   (wire (path BOT 76200  1778000 -1016000 1778000 -825500 635000 -825500
+     635000 -381000)
+    (connect (terminal pin X1-1) (terminal pin U1-9))
+   )
+   (wire (path BOT 76200  1778000 -1016000 1968500 -1016000 1968500 -1714500
+     1758000 -1714500 1758000 -1909000)
+    (connect (terminal pin X1-1) (terminal pin C1-1))
+   )
+   )
+   (Net #00016 
+   (rule
+   )
+   (wire (path BOT 76200  381000 -381000 381000 -1016000 1270000 -1016000)
+    (connect (terminal pin U1-8) (terminal pin X1-0))
+   )
+   (wire (path BOT 76200  1270000 -1016000 1270000 -1270000 1758000 -1270000
+     1758000 -1528000)
+    (connect (terminal pin X1-0) (terminal pin C2-1))
+   )
+   )
+   (Net #00017 
+   (rule
+   )
+   (wire (path BOT 76200  -2032000 508000 -2032000 0 -1651000 0
+     -1651000 -381000)
+    (connect (terminal pin R1-0) (terminal pin U1-0))
+   )
+   )
+   (Net #00018 
+   (rule
+   )
+   (wire (path BOT 76200  -1649000 381000 -1649000 254000 -1270000 254000
+     -1270000 825500 -1381760 825500 -1381760 1270000)
+    (connect (terminal pin U1-27) (terminal pin "DISPLAY/ MLX"-1))
+   )
+   )
+   (Net #00019 
+   (rule
+   )
+   (wire (path BOT 76200  -1397000 381000 -1397000 698500 -1882140 698500
+     -1882140 1270000)
+    (connect (terminal pin U1-26) (terminal pin "DISPLAY/ MLX"-0))
+   )
+   )
+   (Net #00026 
+   (rule
+   )
+   (wire (path BOT 76200  2647000 -115760 1397000 -115760 1397000 -381000)
+    (connect (terminal pin HC12-0) (terminal pin U1-12))
+   )
+   )
+   (Net #00030 
+   (rule
+   )
+   (wire (path BOT 76200  -1778000 -2282000 -1270000 -2282000 -1270000 -2155000)
+    (connect (terminal pin R2-1) (terminal pin "OPTO VEL"-0))
+   )
+   )
+   (Net #00041 
+   (rule
+   )
+   (wire (path BOT 76200  -381000 -2286000 -381000 -2476500 508000 -2476500
+     508000 -2159000)
+    (connect (terminal pin R5-1) (terminal pin "OPTO RPM"-0))
+   )
+   )
+   (Net 5V 
+   (rule
+   )
+   (wire (path BOT 76200  381000 381000 381000 -127000 -1524000 -127000
+     -1524000 -508000 -2032000 -508000)
+    (connect (terminal pin U1-19) (terminal pin R1-1))
+   )
+   (wire (path BOT 76200  -2032000 -508000 -2476500 -508000 -2476500 -1587500
+     -1968500 -1587500 -1968500 -1079500 -1016000 -1079500 -1016000 -1393000)
+    (connect (terminal pin R1-1) (terminal pin "OPTO VEL"-4))
+   )
+   (wire (path BOT 76200  749620 1266000 749620 1778000 2159000 1778000
+     2159000 1385380 2647000 1385380)
+    (connect (terminal pin J1-1) (terminal pin HC12-3))
+   )
+   (wire (path BOT 76200  -381000 1270000 127000 1270000 127000 1206500
+     381000 1206500)
+    (connect (terminal pin "DISPLAY/ MLX"-3) (terminal wire))
+   )
+   (wire (path BOT 76200  749620 1266000 508000 1266000 508000 1206500
+     381000 1206500)
+    (connect (terminal pin J1-1) (terminal wire))
+   )
+   (wire (path BOT 76200  762000 -1397000 762000 -1524000 -1016000 -1524000
+     -1016000 -1393000)
+    (connect (terminal pin "OPTO RPM"-4) (terminal pin "OPTO VEL"-4))
+   )
+   (wire (path BOT 76200  381000 381000 381000 1206500)
+    (connect (terminal pin U1-19) (terminal wire))
+   )
+   )
+   (Net GND 
+   (rule
+   )
+   (wire (path TOP 76200  1250000 1266000 1827495 1266000 1827495 885000
+     2647000 885000)
+    (connect (terminal pin J1-0) (terminal pin HC12-2))
+   )
+   (wire (path TOP 76200  1250000 1266000 1250000 1016000 -127000 1016000)
+    (connect (terminal pin J1-0) (terminal wire))
+   )
+   (wire (path TOP 76200  -127000 381000 -127000 127000 127000 127000
+     127000 -381000)
+    (connect (terminal pin U1-21) (terminal pin U1-7))
+   )
+   (wire (path TOP 76200  -127000 1016000 -881380 1016000 -881380 1270000)
+    (connect (terminal wire) (terminal pin "DISPLAY/ MLX"-2))
+   )
+   (wire (path TOP 76200  0 -2286000 152400 -2286000 152400 -1909000)
+    (connect (terminal pin R4-1) (terminal wire))
+   )
+   (wire (path TOP 76200  127000 -381000 152400 -381000 152400 -1909000)
+    (connect (terminal pin U1-7) (terminal wire))
+   )
+   (wire (path TOP 76200  0 -2286000 0 -2603500 -2159000 -2603500
+     -2159000 -2282000)
+    (connect (terminal pin R4-1) (terminal pin R3-0))
+   )
+   (wire (path TOP 76200  152400 -1909000 1504000 -1909000)
+    (connect (terminal wire) (terminal pin C1-0))
+   )
+   (wire (path TOP 76200  -127000 1016000 -127000 381000)
+    (connect (terminal wire) (terminal pin U1-21))
+   )
+   (wire (path TOP 76200  1504000 -1909000 1504000 -1528000)
+    (connect (terminal pin C1-0) (terminal pin C2-0))
+   )
+   )
+   (Net "GND FONTE" 
+   (rule
+   )
+   (wire (path BOT 76200  762000 -2159000 762000 -1968500 -1016000 -1968500
+     -1016000 -2155000)
+    (connect (terminal pin "OPTO RPM"-1) (terminal pin "OPTO VEL"-1))
+   )
+   (wire (path BOT 76200  2647000 -2155380 2222500 -2155380 2222500 -2349500
+     762000 -2349500 762000 -2159000)
+    (connect (terminal pin "ENTRADA VELOCIDADE E RPM"-0) (terminal pin "OPTO RPM"-1))
+   )
+   )
+   (Net RPM 
+   (rule
+   )
+   (wire (path BOT 76200  -381000 -1270000 -381000 -825500 -762000 -825500
+     -762000 -254000 1016000 -254000 1016000 -698500 2095500 -698500
+     2095500 -1655000 2647000 -1655000)
+    (connect (terminal pin R5-0) (terminal pin "ENTRADA VELOCIDADE E RPM"-1))
+   )
+   )
+   (Net VCC/VDD 
+   (rule
+   )
+   )
+   (Net VEL 
+   (rule
+   )
+   (wire (path BOT 76200  -1778000 -1266000 -1778000 -1841500 1143000 -1841500
+     1143000 -2095500 1968500 -2095500 1968500 -1905000 3048000 -1905000
+     3048000 -1154620 2647000 -1154620)
+    (connect (terminal pin R2-0) (terminal pin "ENTRADA VELOCIDADE E RPM"-2))
+   )
+   )
+  )
+ )
